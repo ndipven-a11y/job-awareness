@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:Segoe UI,Arial,Helvetica,sans-serif}
+body{margin:0;background:#f6f8fb;color:#1b1b1b}
+header{background:#2b6cb0;color:white;padding:16px}
+main{padding:20px;max-width:900px;margin:0 auto}
+#controls{display:flex;gap:20px;flex-wrap:wrap}
+#controls > div{background:white;padding:12px;border-radius:6px;flex:1;min-width:260px}
+input,textarea,button{display:block;width:100%;padding:8px;margin:6px 0}
+button{background:#2b6cb0;color:white;border:none;border-radius:4px;cursor:pointer}
+#jobList{list-style:none;padding:0}
+.job{background:white;padding:12px;border-radius:6px;margin:8px 0;border-left:4px solid #2b6cb0}
+.job h3{margin:0}
+#alerts{margin:12px 0}
+.alert{background:#fff3cd;border:1px solid #ffeeba;padding:10px;border-radius:5px}
+footer{padding:12px;text-align:center;color:#666}

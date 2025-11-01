@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Job Awareness System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Job Awareness</h1>
+    <p>Live job listings and notifications (demo)</p>
+  </header>
+
+  <main>
+    <section id="controls">
+      <div>
+        <h2>Add a job (demo)</h2>
+        <form id="addJobForm">
+          <input type="text" name="title" placeholder="Title" required>
+          <input type="text" name="company" placeholder="Company" required>
+          <input type="text" name="location" placeholder="Location">
+          <textarea name="description" placeholder="Description"></textarea>
+          <button type="submit">Add job</button>
+        </form>
+      </div>
+
+      <div>
+        <h2>Subscribe to alerts</h2>
+        <form id="subscribeForm">
+          <input type="email" name="email" placeholder="Your email (for demo only)" required>
+          <input type="text" name="keywords" placeholder="Keywords (comma separated)">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="alerts"></section>
+
+    <section id="jobs">
+      <h2>Jobs</h2>
+      <ul id="jobList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>Demo job awareness system — run locally with WAMP</small>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
